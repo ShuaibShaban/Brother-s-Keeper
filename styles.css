@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin-top: 0;
+    padding: 0;
+}
+
+#navigation {
+    background: #a83264;
+}
+
+.nav-bar > ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40%;
+    gap: 40px;
+    list-style: none;
+    color: white;
+}
+
+#body {
+    background-image: url("./assets/img1.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+p {
+    font-size: 20px;
+}
+
+.home-content {
+    margin-top: -80px;
+    padding: 20px;
+} 
+
+.home-btn {
+    padding: 20px 20px;
+    background: linear-gradient(to right, #a83264 50%, #8c274c 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: white;
+    border-radius: 15%;
+    border: none;
+    cursor: pointer;
+    transition: background-position 0.5s ease-in-out;
+}
+
+.home-btn:hover {
+    background-position: left bottom;
+}
+
+
+
+
+
